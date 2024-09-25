@@ -247,7 +247,7 @@ function reservatic_form_shortcode($atts)
 
                             <div class="row gy-5">
                                 <div class="col-md-6">
-                                    <div class="type"><?php _e('ID rezervace', 'reservatic'); ?></div>
+                                    <div class="type"><?php _e('ID rezervace', 'reservatic'); ?>:</div>
                                     <div class="value" id="reservation-id"></div>
                                 </div>
                             </div>
