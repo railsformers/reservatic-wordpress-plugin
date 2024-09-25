@@ -1,5 +1,3 @@
-
-```markdown
 # Reservatic WordPress Plugin
 
 Tento plugin umožňuje integraci Reservatic API do vašeho WordPress webu.
