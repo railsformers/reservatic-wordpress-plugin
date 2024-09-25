@@ -574,7 +574,7 @@ jQuery(document).ready(function ($) {
                     $('#reservation-client-name').text(reservationData.first_name + ' ' + reservationData.last_name);
                     $('#reservation-client-email').text(reservationData.email);
 
-                    if (reservationData.max_delete_at != null) {
+                    if (reservationData.max_delete_at != null && reservationData.can_cancel == true) {
                         $('#reservation-cancel-time').text(formatDateTime(reservationData.max_delete_at))
                         console.log(reservationData.max_delete_at);
                     } else {
